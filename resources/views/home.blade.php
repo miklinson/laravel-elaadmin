@@ -1,4 +1,5 @@
 @include('htmlhead.index')
-@include('header')
-@include('content')
+@include('sidebar.left')
+@include('navbar.top')
+@include('content.dashboard')
 @include('footer.js')
