@@ -1,5 +1,9 @@
 @extends('layouts.app')
-@section('title', 'UI Elements Grids')
+@section('title', 'UI Elements Modals')
+@section('html-head')
+  @include('layouts.htmlhead.component-head')
+@endsection
+
 
 @section('content')
     <div class="animated">
@@ -194,4 +198,8 @@
 
 
 </div><!-- .animated -->
+@endsection
+
+@section('javascript')
+  @include(layouts.footer.component-js);
 @endsection

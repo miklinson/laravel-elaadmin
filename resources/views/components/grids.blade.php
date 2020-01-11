@@ -1,5 +1,9 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Grids')
+@section('html-head')
+  @include('layouts.htmlhead.component-head')
+@endsection
+
 
 @section('content')
 <div class="content">
@@ -321,4 +325,8 @@
             </div>
         </div>
     </div>
+@endsection
+
+@section('javascript')
+  @include(layouts.footer.component-js);
 @endsection

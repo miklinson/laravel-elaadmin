@@ -1,5 +1,9 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Tabs')
+@section('html-head')
+  @include('layouts.htmlhead.component-head')
+@endsection
+
 
 @section('content')
 
@@ -159,4 +163,8 @@
                     </div>
                 </div>
             </div>
+@endsection
+
+@section('javascript')
+  @include(layouts.footer.component-js);
 @endsection
