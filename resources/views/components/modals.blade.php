@@ -201,5 +201,5 @@
 @endsection
 
 @section('javascript')
-  @include(layouts.footer.component-js);
+  @include('layouts.footer.component-js');
 @endsection

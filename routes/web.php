@@ -25,3 +25,8 @@ Route::group(['prefix' => 'components'], function () {
     Route::get('grids', 'ComponentController@grids')->name('components.grids');
     Route::get('typography', 'ComponentController@typography')->name('components.typography');
 });
+
+Route::group(['prefix' => 'tables'], function () {
+    Route::get('basic', 'TableController@basic')->name('tables.basic');
+    Route::get('data', 'TableController@data')->name('tables.data');
+});

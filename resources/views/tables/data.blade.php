@@ -1,3 +1,11 @@
+@extends('layouts.app')
+@section('title', 'UI Elements Data Tables')
+@section('html-head')
+  @include('layouts.htmlhead.table-head')
+@endsection
+
+
+@section('content')
 <div class="animated fadeIn">
     <div class="row">
 
@@ -368,3 +376,8 @@
 
     </div>
 </div><!-- .animated -->
+@endsection
+
+@section('javascript')
+  @include('layouts.footer.table-js')
+@endsection
