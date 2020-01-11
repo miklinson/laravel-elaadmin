@@ -1,9 +1,10 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Alert')
-@section('html-head')
-  @include('layouts.htmlhead.component-head')
-@endsection
 
+@section('bc-title', 'Alerts')
+@section('bc-first', 'UI Elements')
+@section('bc-mid', 'Components')
+@section('bc-last', 'Alerts')
 @section('content')
     <div class="animated fadeIn">
         <div class="alerts">
@@ -188,8 +189,4 @@
 
 
     </div><!-- .animated -->
-@endsection
-
-@section('javascript')
-  @include('layouts.footer.component-js');
 @endsection

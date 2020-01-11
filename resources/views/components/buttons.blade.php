@@ -1,10 +1,11 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Buttons')
-@section('html-head')
-  @include('layouts.htmlhead.component-head')
-@endsection
 
 
+@section('bc-title', 'Buttons')
+@section('bc-first', 'UI Elements')
+@section('bc-mid', 'Components')
+@section('bc-last', 'Buttons')
 @section('content')
     <div class="animated fadeIn">
         <div class="buttons">
@@ -336,8 +337,4 @@
             </div><!-- .row -->
         </div> <!-- .buttons -->
     </div><!-- .animated -->
-@endsection
-
-@section('javascript')
-  @include('layouts.footer.component-js');
 @endsection

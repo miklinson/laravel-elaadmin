@@ -1,12 +1,11 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Grids')
-@section('html-head')
-  @include('layouts.htmlhead.component-head')
-@endsection
 
-
+@section('bc-title', 'Grids')
+@section('bc-first', 'UI Elements')
+@section('bc-mid', 'Components')
+@section('bc-last', 'Grids')
 @section('content')
-<div class="content">
     <div class="animated fadeIn">
 
         <h5 class="heading-title mb-1 text-secondary">Fixed Grid</h5>
@@ -325,8 +324,4 @@
             </div>
         </div>
     </div>
-@endsection
-
-@section('javascript')
-  @include('layouts.footer.component-js');
 @endsection

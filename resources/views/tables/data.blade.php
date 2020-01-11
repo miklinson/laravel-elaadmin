@@ -1,9 +1,14 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Data Tables')
-@section('html-head')
-  @include('layouts.htmlhead.table-head')
-@endsection
 
+@push('styles')
+<link rel="stylesheet" href="{{asset('css/lib/datatable/dataTables.bootstrap.min.css')}}">
+@endpush
+
+@section('bc-title', 'Data')
+@section('bc-first', 'UI Elements')
+@section('bc-mid', 'Tables')
+@section('bc-last', 'Data')
 
 @section('content')
 <div class="animated fadeIn">
@@ -378,6 +383,22 @@
 </div><!-- .animated -->
 @endsection
 
-@section('javascript')
-  @include('layouts.footer.table-js')
-@endsection
+@push('scripts')
+<script src="{{asset('js/lib/data-table/datatables.min.js')}}"></script>
+<script src="{{asset('js/lib/data-table/dataTables.bootstrap.min.js')}}"></script>
+<script src="{{asset('js/lib/data-table/dataTables.buttons.min.js')}}"></script>
+<script src="{{asset('js/lib/data-table/buttons.bootstrap.min.js')}}"></script>
+<script src="{{asset('js/lib/data-table/jszip.min.js')}}"></script>
+<script src="{{asset('js/lib/data-table/vfs_fonts.js')}}"></script>
+<script src="{{asset('js/lib/data-table/buttons.html5.min.js')}}"></script>
+<script src="{{asset('js/lib/data-table/buttons.print.min.js')}}"></script>
+<script src="{{asset('js/lib/data-table/buttons.colVis.min.js')}}"></script>
+<script src="{{asset('js/init/datatables-init.js')}}"></script>
+
+
+<script type="text/javascript">
+    $(document).ready(function() {
+      $('#bootstrap-data-table-export').DataTable();
+  } );
+</script>
+@endpush

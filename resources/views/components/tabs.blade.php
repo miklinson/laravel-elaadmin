@@ -1,12 +1,12 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Tabs')
-@section('html-head')
-  @include('layouts.htmlhead.component-head')
-@endsection
 
+@section('bc-title', 'Tabs')
+@section('bc-first', 'UI Elements')
+@section('bc-mid', 'Components')
+@section('bc-last', 'Tabs')
 
 @section('content')
-
     <div class="row">
                 <div class="col-lg-6">
                     <div class="card">
@@ -163,8 +163,4 @@
                     </div>
                 </div>
             </div>
-@endsection
-
-@section('javascript')
-  @include('layouts.footer.component-js');
 @endsection

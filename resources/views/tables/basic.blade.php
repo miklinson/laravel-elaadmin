@@ -1,8 +1,10 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Basic Table')
-@section('html-head')
-  @include('layouts.htmlhead.table-head')
-@endsection
+
+@section('bc-title', 'Basic')
+@section('bc-first', 'UI Elements')
+@section('bc-mid', 'Tables')
+@section('bc-last', 'Basic')
 
 @section('content')
 <div class="animated fadeIn">
@@ -89,8 +91,8 @@
                         </tbody>
                     </table>
                 </div> <!-- /.table-stats -->
+              </div>
             </div>
-        </div>
         <div class="col-lg-6">
             <div class="card">
                 <div class="card-header">
@@ -247,13 +249,9 @@
                     </tr>
                 </tbody>
             </table>
-
+          </div>
         </div>
-    </div>
-</div>
-
-
-
+      </div>
 
 <div class="col-lg-6">
     <div class="card">
@@ -335,8 +333,4 @@
 
 </div>
 </div><!-- .animated -->
-@endsection
-
-@section('javascript')
-  @include('layouts.footer.table-js')
 @endsection

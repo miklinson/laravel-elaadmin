@@ -21,3 +21,4 @@
             </div>
         </div>
     </header>
+    @include('layouts.navbar.breadcrumbs')

@@ -1,9 +1,10 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Cards')
-@section('html-head')
-  @include('layouts.htmlhead.component-head')
-@endsection
 
+@section('bc-title', 'Cards')
+@section('bc-first', 'UI Elements')
+@section('bc-mid', 'Components')
+@section('bc-last', 'Cards')
 @section('content')
     <div class="animated fadeIn">
         <div class="row">
@@ -358,8 +359,4 @@
 
         </div><!-- .row -->
     </div><!-- .animated -->
-@endsection
-
-@section('javascript')
-  @include('layouts.footer.component-js');
 @endsection

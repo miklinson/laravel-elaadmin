@@ -1,9 +1,10 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Progress Bars')
-@section('html-head')
-  @include('layouts.htmlhead.component-head')
-@endsection
 
+@section('bc-title', 'Progress Bars')
+@section('bc-first', 'UI Elements')
+@section('bc-mid', 'Components')
+@section('bc-last', 'Progress Bars')
 
 @section('content')
     <div class="animated fadeIn">
@@ -196,8 +197,4 @@
     </div>
 </div> <!-- .row -->
 </div><!-- .animated -->
-@endsection
-
-@section('javascript')
-  @include('layouts.footer.component-js');
 @endsection
