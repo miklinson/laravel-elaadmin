@@ -215,5 +215,3 @@
         // Bar Chart #flotBarChart End
     });
 </script>
-</body>
-</html>

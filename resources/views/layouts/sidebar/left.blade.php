@@ -6,11 +6,11 @@
                     <a href="{{ route('home') }}"><i class="menu-icon fa fa-laptop"></i>Dashboard </a>
                 </li>
 
-                @include('sidebar.ui-elements')
+                @include('layouts.sidebar.ui-elements')
 
-                @include('sidebar.icons')
+                @include('layouts.sidebar.icons')
 
-                @include('sidebar.extras')
+                @include('layouts.sidebar.extras')
 
             </ul>
         </div><!-- /.navbar-collapse -->

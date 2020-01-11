@@ -1,4 +1,4 @@
-<div id="right-panel" class="right-panel">
+
     <!-- Header-->
     <header id="header" class="header">
         <div class="top-left">
@@ -11,13 +11,13 @@
         <div class="top-right">
             <div class="header-menu">
                 <div class="header-left">
-                  @include('navbar.search')
+                  @include('layouts.navbar.search')
 
-                  @include('navbar.notification')
+                  @include('layouts.navbar.notification')
 
-                  @include('navbar.message')
+                  @include('layouts.navbar.message')
                 </div>
-                @include('navbar.profile')
+                @include('layouts.navbar.profile')
             </div>
         </div>
     </header>

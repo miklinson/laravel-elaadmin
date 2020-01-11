@@ -7,7 +7,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Laravel 6 Admin</title>
+    <title>@yield('title')</title>
     <meta name="description" content="Ela Admin - HTML5 Admin Template">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -29,6 +29,26 @@
     <link href="https://cdn.jsdelivr.net/npm/weathericons@2.1.0/css/weather-icons.css" rel="stylesheet" />
     <link href="https://cdn.jsdelivr.net/npm/fullcalendar@3.9.0/dist/fullcalendar.min.css" rel="stylesheet" />
 
-   @include('htmlhead.inline-style')
+   @include('layouts.htmlhead.inline-style')
 </head>
 <body>
+  <!-- Left Panel -->
+  @include('layouts.sidebar.left')
+  <!-- End of Left Panel -->
+  <!-- Top Panel with Right -->
+  <div id="right-panel" class="right-panel">
+    @include('layouts.navbar.top')
+  <!-- End of Top Panel with Right -->
+    <!-- Content -->
+    <div class="content">
+      @yield('content')
+    </div>
+    <!-- End of Content-->
+    <div class="clearfix"></div>
+    <!-- Footer -->
+    @include('layouts.footer.site')
+    <!-- End of Footer -->
+  </div>
+  @include('layouts.footer.js')
+</body>
+</html>
