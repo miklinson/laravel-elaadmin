@@ -4,7 +4,7 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 
-class ComponentController extends Controller
+class ComponentsController extends Controller
 {
 
     public function buttons()

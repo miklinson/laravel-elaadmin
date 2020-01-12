@@ -10,8 +10,6 @@
 
                 @include('layouts.sidebar.icons')
 
-                @include('layouts.sidebar.extras')
-
             </ul>
         </div><!-- /.navbar-collapse -->
     </nav>

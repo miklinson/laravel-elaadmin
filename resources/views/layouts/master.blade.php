@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>@yield('title')</title>
-    <meta name="description" content="Ela Admin - HTML5 Admin Template">
+    <meta name="description" content="Laravel 6 with ElaAdmin Theme">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @stack('meta')
     <link rel="apple-touch-icon" href="https://i.imgur.com/QRAUqs9.png">
