@@ -48,6 +48,8 @@
 
 @section('bc-title', 'Dashboard')
 @section('bc-first', 'Dashboard')
+@section('bc-mid', 'Overview')
+@section('bc-last', 'Home')
 @section('content')
 <!-- Animated -->
 <div class="animated fadeIn">

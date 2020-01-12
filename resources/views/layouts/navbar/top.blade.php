@@ -11,6 +11,7 @@
         <div class="top-right">
             <div class="header-menu">
                 <div class="header-left">
+
                   @include('layouts.navbar.search')
 
                   @include('layouts.navbar.notification')

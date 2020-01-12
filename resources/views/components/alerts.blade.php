@@ -1,10 +1,37 @@
 @extends('layouts.app')
 @section('title', 'UI Elements Alert')
 
+@push('styles')
+<style>
+  .right-panel .breadcrumbs{
+    margin-top: 2px
+  }
+  .right-panel header.header{
+    background:#4a5c6f
+  }
+
+  .right-panel .navbar-header
+  {
+    background-color: #4a5c6f
+  }
+  @media (max-width: 768px){
+    .right-panel .top-left, .right-panel .top-right {
+      width: 100%;
+      float: none;
+      background: #4a5c6f;
+    }
+  }
+
+</style>
+@endpush
+
 @section('bc-title', 'Alerts')
 @section('bc-first', 'UI Elements')
 @section('bc-mid', 'Components')
 @section('bc-last', 'Alerts')
+
+
+
 @section('content')
     <div class="animated fadeIn">
         <div class="alerts">
