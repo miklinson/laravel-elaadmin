@@ -29,7 +29,7 @@
     <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
       <i class="menu-icon fa fa-th" style="color: rosybrown"></i>Forms</a>
     <ul class="sub-menu children dropdown-menu">
-        <li><i class="menu-icon fa fa-th"></i><a href="forms-basic.html">Basic Form</a></li>
-        <li><i class="menu-icon fa fa-th"></i><a href="forms-advanced.html">Advanced Form</a></li>
+        <li><i class="menu-icon fa fa-th"></i><a href="{{route('forms.basic')}}">Basic Form</a></li>
+        <li><i class="menu-icon fa fa-th"></i><a href="{{route('forms.advanced')}}">Advanced Form</a></li>
     </ul>
 </li>
